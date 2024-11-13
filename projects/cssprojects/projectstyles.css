@@ -67,3 +67,64 @@
 .night-mode .navbar-title-arrows a:hover {
   color: #beeecb; /* or any other color you prefer for hover */
 }
+
+/* Navigation Bar Navigation Arrows */
+
+@media (max-width: 1000px) {
+  .navbar-title-arrows {
+    display: none;
+  }
+}
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+@media (max-width: 1000px) {
+  .navbar-title-arrows {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  #sideNav .navbar-brand .d-none.d-lg-block h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  #navbarResponsive {
+    padding-top: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .home-link {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  #navbarResponsive {
+    position: relative;
+  }
+  #night-mode-toggle {
+    position: absolute;
+    top: -16px;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 1000px) {
+  #navbarResponsive {
+    position: relative;
+  }
+  .night-mode-label {
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+}
