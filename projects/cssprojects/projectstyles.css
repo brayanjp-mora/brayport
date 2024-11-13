@@ -1,0 +1,69 @@
+
+/* Navigation Title for the Project */
+
+#sideNav .navbar-brand .d-none.d-lg-block h1 {
+  font-size: 24px;
+  margin-bottom: -10px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+/* Navigation Bar Items */
+
+#navbarResponsive {
+  padding-top: 200px;
+}
+
+/* Navigation Bar Home Item */
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.home-link {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-40%);
+  z-index: 2;
+}
+
+/* Navigation Bar Navigation Arrows */
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+.navbar-nav.ml-auto a {
+  font-size: 24px;
+  color: #05852c;
+  margin: 10px;
+}
+
+.navbar-title-arrows {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: -19px;
+  width: 100px;
+}
+.navbar-brand {
+  text-align: center;
+}
+.navbar-title-arrows a {
+  font-size: 24px;
+  color: #016915;
+  margin: 0 50px;
+  left: 50px;
+}
+
+/* Dark Mode */
+
+.night-mode .navbar-title-arrows a {
+  color: #93BF9F; /* or any other color you prefer */
+}
+.night-mode .navbar-title-arrows a:hover {
+  color: #beeecb; /* or any other color you prefer for hover */
+}
